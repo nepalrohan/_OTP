@@ -6,6 +6,7 @@ export default function Otp({ length }) {
   const [error, setError] = useState(null);
   const inputRef = useRef([]);
   const handleChange = (value, index) => {
+    if (!/^\d*$/.test(value)) return; // Allow only numeric input
     let newArray = [...otp];
     newArray[index] = value;
     setOtp(newArray);
