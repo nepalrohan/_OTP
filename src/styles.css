@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  shadow: 0 0 0.5 rgba(0, 0, 0, 0.5);
+  background-color: #333;
+  color: antiquewhite;
+}
+
+.otp-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.otp-input {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.otp-input:focus {
+  outline-color: purple;
+}
+
+.error {
+  color: red;
+  text: 15px;
+}
